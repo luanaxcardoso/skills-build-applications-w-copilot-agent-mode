@@ -1,0 +1,103 @@
+body {
+  background: linear-gradient(135deg, #e0f7fa 0%, #fce4ec 100%);
+  color: #222;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar {
+  background: linear-gradient(90deg, #1976d2 0%, #00bcd4 100%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+h2, .card-title {
+  color: #1976d2;
+  font-weight: 700;
+}
+
+.table-primary th {
+  background-color: #00bcd4 !important;
+  color: #fff;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e3f2fd;
+}
+
+.btn-primary, .btn-outline-primary {
+  background: linear-gradient(90deg, #1976d2 0%, #00bcd4 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(25,118,210,0.08);
+}
+
+.btn-primary:hover, .btn-outline-primary:hover {
+  background: linear-gradient(90deg, #00bcd4 0%, #1976d2 100%);
+  color: #fff;
+}
+
+a, .App-link {
+  color: #1976d2;
+  text-decoration: underline;
+}
+
+a:hover, .App-link:hover {
+  color: #00bcd4;
+}
+
+.card {
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 4px 24px rgba(25,118,210,0.08);
+}
